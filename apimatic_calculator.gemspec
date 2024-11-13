@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = 'hammett-washington-sdk'
-  s.version = '1.6.9'
+  s.version = '1.7.0'
   s.summary = 'test'
   s.description = 'Vel corrupti volupt'
   s.authors = ['Zelenia Merrill']
