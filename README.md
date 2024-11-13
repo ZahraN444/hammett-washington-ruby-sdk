@@ -10,16 +10,16 @@ Simple calculator API hosted on APIMATIC
 Install the gem from the command line:
 
 ```ruby
-gem install hammett-washington-sdk -v 1.6.5
+gem install hammett-washington-sdk -v 1.6.6
 ```
 
 Or add the gem to your Gemfile and run `bundle`:
 
 ```ruby
-gem 'hammett-washington-sdk', '1.6.5'
+gem 'hammett-washington-sdk', '1.6.6'
 ```
 
-For additional gem details, see the [RubyGems page for the hammett-washington-sdk gem](https://rubygems.org/gems/hammett-washington-sdk/versions/1.6.5).
+For additional gem details, see the [RubyGems page for the hammett-washington-sdk gem](https://rubygems.org/gems/hammett-washington-sdk/versions/1.6.6).
 
 ## Test the SDK
 
@@ -31,7 +31,7 @@ rake
 
 ## Initialize the API Client
 
-**_Note:_** Documentation for the client can be found [here.](https://www.github.com/ZahraN444/hammett-washington-ruby-sdk/tree/1.6.5/doc/client.md)
+**_Note:_** Documentation for the client can be found [here.](https://www.github.com/ZahraN444/hammett-washington-ruby-sdk/tree/1.6.6/doc/client.md)
 
 The following parameters are configurable for the API Client:
 
@@ -58,11 +58,11 @@ client = ApimaticCalculator::Client.new(
 
 ## List of APIs
 
-* [Simple Calculator](https://www.github.com/ZahraN444/hammett-washington-ruby-sdk/tree/1.6.5/doc/controllers/simple-calculator.md)
+* [Simple Calculator](https://www.github.com/ZahraN444/hammett-washington-ruby-sdk/tree/1.6.6/doc/controllers/simple-calculator.md)
 
 ## Classes Documentation
 
-* [Utility Classes](https://www.github.com/ZahraN444/hammett-washington-ruby-sdk/tree/1.6.5/doc/utility-classes.md)
-* [HttpResponse](https://www.github.com/ZahraN444/hammett-washington-ruby-sdk/tree/1.6.5/doc/http-response.md)
-* [HttpRequest](https://www.github.com/ZahraN444/hammett-washington-ruby-sdk/tree/1.6.5/doc/http-request.md)
+* [Utility Classes](https://www.github.com/ZahraN444/hammett-washington-ruby-sdk/tree/1.6.6/doc/utility-classes.md)
+* [HttpResponse](https://www.github.com/ZahraN444/hammett-washington-ruby-sdk/tree/1.6.6/doc/http-response.md)
+* [HttpRequest](https://www.github.com/ZahraN444/hammett-washington-ruby-sdk/tree/1.6.6/doc/http-request.md)
 
