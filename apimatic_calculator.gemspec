@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = 'hammett-washington-sdk'
-  s.version = '1.7.0'
+  s.version = '1.7.1'
   s.summary = 'test'
   s.description = 'Vel corrupti volupt'
   s.authors = ['Zelenia Merrill']
@@ -10,9 +10,9 @@ Gem::Specification.new do |s|
   s.metadata  = {
 }
 
-  s.add_dependency('apimatic_core_interfaces', '~> 0.2.1')
-  s.add_dependency('apimatic_core', '~> 0.3.9')
-  s.add_dependency('apimatic_faraday_client_adapter', '~> 0.1.4')
+  s.add_dependency('apimatic_core_interfaces', '~> 0.2.2')
+  s.add_dependency('apimatic_core', '~> 0.3.19')
+  s.add_dependency('apimatic_faraday_client_adapter', '~> 0.1.6')
   s.add_development_dependency('minitest', '~> 5.24.0')
   s.add_development_dependency('minitest-proveit', '~> 1.0')
   s.required_ruby_version = ['>= 2.6']

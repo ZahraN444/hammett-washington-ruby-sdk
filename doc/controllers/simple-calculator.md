@@ -39,5 +39,6 @@ collect = {
 }
 
 result = simple_calculator_controller.get_calculate(collect)
+puts result
 ```
 
