@@ -10,16 +10,16 @@ Simple calculator API hosted on APIMATIC
 Install the gem from the command line:
 
 ```bash
-gem install hammett-washington-sdk -v 1.7.5
+gem install hammett-washington-sdk -v 1.7.6
 ```
 
 Or add the gem to your Gemfile and run `bundle`:
 
 ```ruby
-gem 'hammett-washington-sdk', '1.7.5'
+gem 'hammett-washington-sdk', '1.7.6'
 ```
 
-For additional gem details, see the [RubyGems page for the hammett-washington-sdk gem](https://rubygems.org/gems/hammett-washington-sdk/versions/1.7.5).
+For additional gem details, see the [RubyGems page for the hammett-washington-sdk gem](https://rubygems.org/gems/hammett-washington-sdk/versions/1.7.6).
 
 ## Test the SDK
 
@@ -31,7 +31,7 @@ rake
 
 ## Initialize the API Client
 
-**_Note:_** Documentation for the client can be found [here.](https://www.github.com/ZahraN444/hammett-washington-ruby-sdk/tree/1.7.5/doc/client.md)
+**_Note:_** Documentation for the client can be found [here.](https://www.github.com/ZahraN444/hammett-washington-ruby-sdk/tree/1.7.6/doc/client.md)
 
 The following parameters are configurable for the API Client:
 
@@ -47,7 +47,7 @@ The following parameters are configurable for the API Client:
 | retry_statuses | `Array` | A list of HTTP statuses to retry. <br> **Default: [408, 413, 429, 500, 502, 503, 504, 521, 522, 524]** |
 | retry_methods | `Array` | A list of HTTP methods to retry. <br> **Default: %i[get put]** |
 | http_callback | `HttpCallBack` | The Http CallBack allows defining callables for pre and post API calls. |
-| proxy_settings | [`ProxySettings`](https://www.github.com/ZahraN444/hammett-washington-ruby-sdk/tree/1.7.5/doc/proxy-settings.md) | Optional proxy configuration to route HTTP requests through a proxy server. |
+| proxy_settings | [`ProxySettings`](https://www.github.com/ZahraN444/hammett-washington-ruby-sdk/tree/1.7.6/doc/proxy-settings.md) | Optional proxy configuration to route HTTP requests through a proxy server. |
 
 The API client can be initialized as follows:
 
@@ -62,21 +62,21 @@ client = Client.new(
 
 ## List of APIs
 
-* [Simple Calculator](https://www.github.com/ZahraN444/hammett-washington-ruby-sdk/tree/1.7.5/doc/controllers/simple-calculator.md)
+* [Simple Calculator](https://www.github.com/ZahraN444/hammett-washington-ruby-sdk/tree/1.7.6/doc/controllers/simple-calculator.md)
 
 ## SDK Infrastructure
 
 ### Configuration
 
-* [ProxySettings](https://www.github.com/ZahraN444/hammett-washington-ruby-sdk/tree/1.7.5/doc/proxy-settings.md)
+* [ProxySettings](https://www.github.com/ZahraN444/hammett-washington-ruby-sdk/tree/1.7.6/doc/proxy-settings.md)
 
 ### HTTP
 
-* [HttpResponse](https://www.github.com/ZahraN444/hammett-washington-ruby-sdk/tree/1.7.5/doc/http-response.md)
-* [HttpRequest](https://www.github.com/ZahraN444/hammett-washington-ruby-sdk/tree/1.7.5/doc/http-request.md)
+* [HttpResponse](https://www.github.com/ZahraN444/hammett-washington-ruby-sdk/tree/1.7.6/doc/http-response.md)
+* [HttpRequest](https://www.github.com/ZahraN444/hammett-washington-ruby-sdk/tree/1.7.6/doc/http-request.md)
 
 ### Utilities
 
-* [ApiHelper](https://www.github.com/ZahraN444/hammett-washington-ruby-sdk/tree/1.7.5/doc/api-helper.md)
-* [DateTimeHelper](https://www.github.com/ZahraN444/hammett-washington-ruby-sdk/tree/1.7.5/doc/date-time-helper.md)
+* [ApiHelper](https://www.github.com/ZahraN444/hammett-washington-ruby-sdk/tree/1.7.6/doc/api-helper.md)
+* [DateTimeHelper](https://www.github.com/ZahraN444/hammett-washington-ruby-sdk/tree/1.7.6/doc/date-time-helper.md)
 
